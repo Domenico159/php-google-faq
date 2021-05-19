@@ -78,7 +78,7 @@
           <a href="#">Tecnologie</a>
         </li>
         <li>
-          <a href="#">Domande frequenti</a>
+          <a class="active" href="#">Domande frequenti</a>
         </li>
       </ul>
     </div>

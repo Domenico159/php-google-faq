@@ -100,6 +100,12 @@ header .header-top .img::before{
     margin-right: 30px;
 }
 
+.header-bottom ul li a.active{
+    color:#2962ff ;
+    border-bottom: 5px solid #2962ff;
+    animation: border-animation 0.5s forwards;
+}
+
 .header-bottom ul li:hover a{
     color:#2962ff ;
     border-bottom: 5px solid #2962ff;
