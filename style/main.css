@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #71757a;
+    font-weight: 600;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    box-shadow: 0 1px 5px rgba(0, 0, 0,0.3);
+}
+
+
+
+header .header-top {
+    padding: 20px 20px 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .img-content{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .header-top .privacy{
+    display: inline-block;
+    font-size: 22px;
+    line-height: 24px;
+    padding-left: 8px;
+    position: relative;
+    top: -10px;
+    vertical-align: middle;
+    color: #5f6368;
+}
+
+header .logo-user{
+    width: 40px;
+    height: 40px;
+    background: #00579b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+header .header-top .img::before{
+    content: url('https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg');
+    height: 24px;
+    width: 74px;
+}
+
+
+.header-bottom ul{
+    display: flex;
+    list-style: none;
+    padding: 0 20px 15px 20px;
+}
+.header-bottom ul li{
+    margin-right: 30px;
+}
+
+.header-bottom ul li:hover a{
+    color:#2962ff ;
+    border-bottom: 5px solid #2962ff;
+    animation: border-animation 0.5s forwards;
+}
+
+@keyframes border-animation {
+    0%{
+        padding-bottom: 0px;
+    }
+
+    100%{
+        padding-bottom: 12px;
+    }
+}
+
+main{
+    flex-grow: 2;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+main h2{
+    margin-top: 80px;
+}
+
+main p {
+    margin: 10px 0 30px 0;
+}
