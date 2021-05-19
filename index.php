@@ -8,6 +8,9 @@
   <title>Document</title>
   <!-- Icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- Style -->
   <link rel="stylesheet" href="./style/main.css">
 </head>
@@ -52,6 +55,9 @@
     <div class="header-top">
       <div class="img-content"><span class="img"></span><span class="privacy">Privacy e termini</span></div>
       <div class="user">
+        <div class="menu">
+          <i class="fas fa-th"></i>
+        </div>
         <div class="logo-user">
           <i class="far fa-user"></i>
         </div>

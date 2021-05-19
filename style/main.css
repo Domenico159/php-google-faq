@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
 }
 
 a{
@@ -20,7 +21,6 @@ a{
 
 body{
     min-height: 100vh;
-    font-family: sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -60,6 +60,17 @@ header .header-top .privacy{
     color: #5f6368;
 }
 
+header .user{
+    display: flex;
+    align-items: center;
+}
+
+header .fas.fa-th{
+    font-size: 24px;
+    color: #5f6368;
+    cursor: pointer;
+}
+
 header .logo-user{
     width: 40px;
     height: 40px;
@@ -69,6 +80,8 @@ header .logo-user{
     align-items: center;
     border-radius: 50%;
     color: #fff;
+    margin-left: 15px;
+    cursor: pointer;
 }
 
 header .header-top .img::before{
@@ -113,8 +126,7 @@ main{
 main h2{
     margin-top: 80px;
     color: #3c4043;
-    font-family: 'Google Sans',sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     margin: 0;
